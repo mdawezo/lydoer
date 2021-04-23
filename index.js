@@ -135,7 +135,8 @@ slash.on("command", async (command) => {
 })
 
 client.on("ready", () => {
-    console.log("Ready");
+    console.log("This bot is online!");
+    client.user.setActivity('YouTube' , { type: 'WATCHING'}).catch(console.error)
     slash.create({
         guildOnly: false,
         data: {
