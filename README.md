@@ -1,15 +1,10 @@
-# slash-activities
-Voice Activities for Discord (with Slash Commands)
-
-# Invite
-> Invite the bot from [here](https://discord.com/oauth2/authorize?client_id=666547523460136961&permissions=16385&scope=bot%20applications.commands)
+# lydoer
+modded for heroku [original repo](https://github.com/shadeoxide/slash-activities)
 
 # Deployment
-- Clone this repo
-- Rename `.env.example` to `.env` 
-- Replace `YOUR_BOT_TOKEN` in `.env` with your bot's token
+Download as .zip and upload on github as ur own repo
+deploy on heroku and in config vars in setting put ur key as `TOKEN` and in value put ur token
 
 ## Additional notes
 - You must invite the bot with `bot` and `application.commands` scope for this to work
-- Join my [Discord Server](https://discord.gg/mkyRmPB)
-- Subscribe me on [YouTube](https://www.youtube.com/channel/UChVsh440kvsyPGuKit8vfqg)
+- Join the dev's [Discord Server](https://discord.gg/mkyRmPB)
