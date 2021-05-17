@@ -139,9 +139,9 @@ client.on("ready", () =>{
     client.user.setPresence({
         status: "online",  // You can show online, idle... Do not disturb is dnd
         game: {
-            name: "YouTube",  // The message shown
+            name: "Phoenix United",  // The message shown
             type: "STREAMING", // PLAYING, WATCHING, LISTENING, STREAMING,
-            url: "https://www.youtube.com/channel/UCqbZkgms7SX_8tNrTrA84rA"
+            url: "https://www.twitch.tv/phoenix_united675"
         }
     });
     slash.create({
