@@ -134,14 +134,13 @@ slash.on("command", async (command) => {
     }
 })
 
-client.on("ready", () =>{
+client.on("Started up!", () =>{
     console.log(`Logged in as ${client.user.tag}!`);
     client.user.setPresence({
         status: "online",  // You can show online, idle... Do not disturb is dnd
         game: {
-            name: "Phoenix United",  // The message shown
-            type: "STREAMING", // PLAYING, WATCHING, LISTENING, STREAMING,
-            url: "https://www.twitch.tv/phoenix_united675"
+            name: "YouTube",  // The message shown
+            type: "WATCHING" // PLAYING, WATCHING, LISTENING, STREAMING,
         }
     });
     slash.create({
