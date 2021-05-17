@@ -134,15 +134,9 @@ slash.on("command", async (command) => {
     }
 })
 
-client.on("Started up!", () =>{
-    console.log(`Logged in as ${client.user.tag}!`);
-    client.user.setPresence({
-        status: "online",  // You can show online, idle... Do not disturb is dnd
-        game: {
-            name: "YouTube",  // The message shown
-            type: "WATCHING" // PLAYING, WATCHING, LISTENING, STREAMING,
-        }
-    });
+client.on("ready", () => {
+    console.log("This bot is online!");
+    client.user.setActivity('YouTube' , { type: 'STREAMING'} , { url: 'https://www.twitch.tv/phoenix_united675'}).catch(console.error)
     slash.create({
         guildOnly: false,
         data: {
